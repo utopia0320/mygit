@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: brand
+      text: study
+      link: /src/Day1
 
 features:
   - title: Feature A

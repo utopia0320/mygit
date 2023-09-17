@@ -9,6 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
+      { text: 'study', link: '../src/Day1' },
       { text: 'Server', items: [
         {
           text: 'environment',
@@ -65,11 +66,11 @@ export default defineConfig({
     ],
 
     sidebar: [
-     { text: 'Environment',
+     { text: 'study',
         collapsed: true,
         items: [
-          { text: '01 vitepress', link: '/quies/server/env/01-vitepress' },
-          { text: '02 server', link: '/quies/server/env/02-server' },
+          { text: '01 Day1', link: '../src/Day1' },
+          { text: '02 Day2', link: '../src/Day2' },
           { text: '03 portainer', link: '/quies/server/env/03-portainer' },
           { text: '04 nginx', link: '/quies/server/env/04-nginx' },
           { text: '05 nginx.conf', link: '/quies/server/env/05-nginx-conf' },
